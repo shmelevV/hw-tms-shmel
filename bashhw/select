@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Хотите ли вы установить python?"
+select answer in 1.Да 2.Нет; do
+case $answer in 
+1.Да)
+echo "Вы выбрали установку python";;
+2.Нет)
+echo "Уходи";;
+esac
+done

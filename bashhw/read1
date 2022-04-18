@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Введите число"
+read n
+if [[ $n -gt 15 && $n -lt 45 ]]; then
+echo "$n > 15 и < 45"
+else
+echo "Число не подпадает под условие"
+fi
+exit 0 
