@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Введите число"
+read n
+if [[ $n -eq 45 ]]; then
+echo "Число $n =45 или <-1"
+elif [[ $n -lt -1 ]]; then
+echo "Число $n =45 или <-1"
+else 
+echo "Число не подходит под условие"
+fi
+exit 0 
